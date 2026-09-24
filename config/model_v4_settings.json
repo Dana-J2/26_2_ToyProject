@@ -1,0 +1,29 @@
+{
+  "model_source": "1BhprUVRAhqAZ7A4HiveyYKG0Gz5DxXnr",
+  "eda_k": 6,
+  "taste_k": 16,
+  "rule_type": "rules_1_2",
+  "weights": {
+    "ingredient_score": 0.3,
+    "purchase_score": 0.25,
+    "preference_score": 0.2,
+    "rating_score": 0.15,
+    "time_score": 0.1
+  },
+  "user_input": {
+    "owned_ingredients": [
+      "egg",
+      "onion",
+      "milk",
+      "cheddar cheese",
+      "bread"
+    ],
+    "excluded_ingredients": [
+      "shrimp"
+    ],
+    "max_minutes": 60,
+    "max_extra_ingredients": 2,
+    "liked_recipe_id": null
+  },
+  "model_rows": 168035
+}
