@@ -1,0 +1,16 @@
+*
+!Dockerfile
+!requirements-deploy.txt
+!app/
+!app/**
+app/**/__pycache__/
+!deploy/
+!deploy/install_assets.py
+!deploy/assets/
+!deploy/assets/**
+!web_assets/
+!web_assets/content_matrix.npz
+!web_assets/recipe_row_mapping.csv
+!web_assets/recommendation_rules.joblib
+!web_assets/taste_menu_candidates_v4.csv
+!web_assets/web_settings.json

@@ -6,3 +6,5 @@ __pycache__/
 web_assets/recipes_model_v4.csv
 data/raw/
 data/analysis/recipes_preprocessed_final.csv
+
+runtime_assets/

@@ -14,7 +14,7 @@
 고정된 데이터셋에서 선택한 기존 레시피로 추천할 때는 저장된 콘텐츠 행렬을 재사용합니다. `ingredient_vectorizer.joblib`, `category_encoders.joblib`, `word2vec.model`, `word2vec_center.npy`는 특징 생성 재현용입니다.
 `taste_cluster_model.joblib`은 EDA 재료 TF-IDF→SVD 공간에서 학습한 모델이므로 콘텐츠 행렬을 직접 넣으면 안 됩니다. 현재 자산에는 해당 EDA 변환기와 SVD가 없으며, 기존 군집과 대표 메뉴를 사용하는 데는 추가 학습이 필요하지 않습니다. 새 레시피의 군집 예측까지 확장하려면 해당 변환기도 따로 내보내야 합니다.
 
-## 노트북에서 가져올 함수
+## 서버에 연결한 함수
 
 4-2: normalize_base, normalize_model_ingredient
 4-3: tier_of
@@ -22,7 +22,7 @@
 4-8: 점수·MMR 관련 함수와 get_final_recommendations
 4-11: suggest_grocery_shopping
 
-모델링 앞부분을 다시 학습하기보다 이미 계산된 recipe 컬럼과 저장된 규칙을 불러옵니다. 함수의 전역 변수인 model_recipes, X_model_content, model_id_to_idx 등도 서버에서 준비해야 합니다.
+`app/recommender.py`에 아래 함수들을 원문 그대로 추출했습니다. `app/main.py`가 recipe 컬럼·저장 규칙·콘텐츠 행렬을 불러오고 model_recipes, X_model_content, model_id_to_idx 등을 준비합니다. 서버 시작 시 한 번 로딩하고 요청별로 기본·취향·장보기 추천을 계산합니다.
 
 ## 화면 입력
 

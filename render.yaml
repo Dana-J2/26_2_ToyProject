@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: naengteol
+    runtime: docker
+    plan: free
+    region: singapore
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /api/health
+    envVars:
+      - key: USE_PACKED_ASSETS
+        value: "1"
+      - key: OPENBLAS_NUM_THREADS
+        value: "1"
+      - key: OMP_NUM_THREADS
+        value: "1"

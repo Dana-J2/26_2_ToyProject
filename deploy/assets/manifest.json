@@ -1,0 +1,23 @@
+{
+  "count": 168035,
+  "detail_parts": [
+    "details.sqlite.gz.part00",
+    "details.sqlite.gz.part01"
+  ],
+  "details_sha256": "3290f40d7a072e01bf952e0553045fc17939a6fb8cd052ab2cd2b93983407de2",
+  "files": {
+    "details.sqlite.gz.part00": "db2a21236b316325700af8e41470365bc961598f4e93c26a84a6ab75e5261bda",
+    "details.sqlite.gz.part01": "901d2f0f51e4e56d2cce32d62c561353097c6520488e28045bfc68a995c56fd5",
+    "ingredient_set_values.npy": "0570de39fe630a54139846cc3cddd3eb0f442f0a06f57a2d595ea680c6873fcc",
+    "vocabulary.json": "501c2d226a77ddfd3fa188b377a6e56f30c3949b9a5d127e032d96100df5d3b0",
+    "main_ings_rule2_values.npy": "3f14658122cc12a9f49b3071e5c9431cbe6d8b40450145b7533ef664dc4c83cb",
+    "core_set_values.npy": "4780d7c113a20f9bd71d5fe5dc28bf511a6dc7a99f744d88e06ddf60484dbd8a",
+    "main_ings_rule1_2_values.npy": "13172506b479a78a27ce79775d2d18d2f1b06343378b577fc574b3661a3cb86f",
+    "ingredient_counts.json": "f002c4c977ebbe6f9b7c0adbc32821a6f857b00443a49a6a032f58e07c2759f8",
+    "main_ings_rule1_2_offsets.npy": "38171d11b9cbe69db6d333eee2976b43fca4373a0bf9bc161f93ea10c4878b37",
+    "ingredient_set_offsets.npy": "42e0fb1519197aab6239620616d60593b4d02133e1133bda7ed020f93fd89a32",
+    "core_set_offsets.npy": "5b7e2221ad69908ab325fec3c5d91a24455fda7c8e3b5bc4506ab04965b8c728",
+    "main_ings_rule2_offsets.npy": "08c8f5cc877a1a6209e7d6f919a5b362151a6465ca4d2f38207165b4c36ca255",
+    "recipes.json.gz": "8996f7eac9592d5d3477b8818a547631b603830050eb55c2759cabd602bcfa23"
+  }
+}
