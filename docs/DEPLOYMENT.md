@@ -1,5 +1,11 @@
 # 웹 배포
 
+- 공개 주소: https://naengteol-wanr.onrender.com/
+- 최초 배포 코드: `ef3b0e1`
+- 확정 버전 태그: `web-v1-20260927`
+- 운영: Render Free / Singapore / Docker
+- GitHub `main` 변경 시 자동 배포됩니다. 문서만 수정할 때는 커밋 메시지에 `[skip render]`를 넣으면 재배포하지 않습니다.
+
 현재 화면과 추천 동작을 2026-09-27 기준으로 확정했습니다.
 
 ## Render Free
