@@ -142,7 +142,7 @@ def recommend(body: RecommendationInput):
              'max_extra_ingredients':body.max_extra_ingredients,'liked_recipe_id':liked or None}
     with compute_lock:
         a,b = engine.get_final_recommendations(value,top_k=6)
-        grocery = engine.suggest_grocery_shopping(owned,excluded,body.max_minutes)
+        grocery = engine.suggest_grocery_shopping(owned,excluded,body.max_minutes,top_k_recipes=len(engine.model_recipes))
     def cards(frame):return [] if frame is None else [recipe_card(row) for _,row in frame.iterrows()]
     shopping = [{'ingredient':r.ingredient,'label':label(r.ingredient),'new_recipes':int(r.new_recipes),
                  'tier':int(r.tier),'examples':[{'id':int(i),'name':n} for i,n in zip(r.example_ids,r.example_names)]}
