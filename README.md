@@ -1,6 +1,6 @@
 # 🍳 자취생의 냉털을 부탁해!
 
-**🌐 [냉털 시연하기](https://naengteol-wanr.onrender.com/)** · **📑 [최종 발표 자료](reports/presentation/final_presentation.pdf)**
+**🌐 [냉털 시연하기](https://naengteol-wanr.onrender.com/)** · **📑 [발표 슬라이드 직접 다운로드](https://raw.githubusercontent.com/Dana-J2/26_2_ToyProject/main/reports/presentation/final_presentation.pdf)**
 
 외부 Render 서버에서 실행되어 개인 노트북이 꺼져 있어도 접속할 수 있습니다. 무료 서버는 미접속 시 절전 상태로 전환되어 첫 접속이 지연될 수 있습니다. 실제 예시 추천은 약 109초가 걸렸으며, 입력 조건에 따라 시간이 달라집니다.
 
